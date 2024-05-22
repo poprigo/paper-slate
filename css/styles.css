@@ -23,9 +23,9 @@ Table Of Contents:
 /*****************************************
 Colors:
 - Backgrounds - light gray #fcfafb
-- Buttons, icons - blue #0092ff
+- Buttons, icons - blue #000000
 - Buttons, icons - red #ef473d
-- Headings text - black #223150
+- Headings text - black #000000
 - Body text - dark gray #5e6576
 ******************************************/
 
@@ -33,19 +33,22 @@ Colors:
 /**************************/
 /*     General Styles     */
 /**************************/
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Kalnia:wght@100..700&display=swap');
+
 body,
 html {
     width: 100%;
 	height: 100%;
+	font-family: "Encode Sans Expanded";
 }
 
 body, p {
 	color: #5e6576; 
-	font: 400 1rem/1.625rem "Open Sans", sans-serif;
+	font: 400 1rem/1.625rem "Encode Sans Expanded", sans-serif;
 }
 
 h1 {
-	color: #223150;
+	color: #000000;
 	font-weight: 700;
 	font-size: 2.5rem;
 	line-height: 3.25rem;
@@ -53,15 +56,16 @@ h1 {
 }
 
 h2 {
-	color: #223150;
-	font-weight: 700;
+	font-family: "Kalnia", serif;
+	font-weight: 400;
+	color: #000000;
 	font-size: 2rem;
 	line-height: 2.5rem;
 	letter-spacing: -0.4px;
 }
 
 h3 {
-	color: #223150;
+	color: #000000;
 	font-weight: 700;
 	font-size: 1.75rem;
 	line-height: 2.25rem;
@@ -69,7 +73,7 @@ h3 {
 }
 
 h4 {
-	color: #223150;
+	color: #000000;
 	font-weight: 700;
 	font-size: 1.5rem;
 	line-height: 2rem;
@@ -77,14 +81,14 @@ h4 {
 }
 
 h5 {
-	color: #223150;
+	color: #000000;
 	font-weight: 700;
 	font-size: 1.25rem;
 	line-height: 1.625rem;
 }
 
 h6 {
-	color: #223150;
+	color: #000000;
 	font-weight: 700;
 	font-size: 1rem;
 	line-height: 1.375rem;
@@ -145,7 +149,7 @@ a:hover {
 }
 
 .blue {
-	color: #0092ff;
+	color: #000000;
 }
 
 .bg-gray {
@@ -162,9 +166,9 @@ a:hover {
 .btn-solid-reg {
 	display: inline-block;
 	padding: 1.375rem 2.25rem 1.375rem 2.25rem;
-	border: 1px solid #0092ff;
+	border: 1px solid #000000;
 	border-radius: 30px;
-	background-color: #0092ff;
+	background-color: #000000;
 	color: #ffffff;
 	font-weight: 600;
 	font-size: 0.875rem;
@@ -175,16 +179,16 @@ a:hover {
 
 .btn-solid-reg:hover {
 	background-color: transparent;
-	color: #0092ff; /* needs to stay here because of the color property of a tag */
+	color: #000000; /* needs to stay here because of the color property of a tag */
 	text-decoration: none;
 }
 
 .btn-solid-lg {
 	display: inline-block;
 	padding: 1.625rem 2.625rem 1.625rem 2.625rem;
-	border: 1px solid #0092ff;
+	border: 1px solid #000000;
 	border-radius: 30px;
-	background-color: #0092ff;
+	background-color: #000000;
 	color: #ffffff;
 	font-weight: 600;
 	font-size: 0.875rem;
@@ -195,16 +199,16 @@ a:hover {
 
 .btn-solid-lg:hover {
 	background-color: transparent;
-	color: #0092ff; /* needs to stay here because of the color property of a tag */
+	color: #000000; /* needs to stay here because of the color property of a tag */
 	text-decoration: none;
 }
 
 .btn-solid-sm {
 	display: inline-block;
 	padding: 1rem 1.5rem 1rem 1.5rem;
-	border: 1px solid #0092ff;
+	border: 1px solid #000000;
 	border-radius: 30px;
-	background-color: #0092ff;
+	background-color: #000000;
 	color: #ffffff;
 	font-weight: 600;
 	font-size: 0.875rem;
@@ -215,7 +219,7 @@ a:hover {
 
 .btn-solid-sm:hover {
 	background-color: transparent;
-	color: #0092ff; /* needs to stay here because of the color property of a tag */
+	color: #000000; /* needs to stay here because of the color property of a tag */
 	text-decoration: none;
 }
 
@@ -318,9 +322,9 @@ a:hover {
 	display: inline-block;
 	width: 100%;
 	height: 3.25rem;
-	border: 1px solid #0092ff;
+	border: 1px solid #000000;
 	border-radius: 30px;
-	background-color: #0092ff;
+	background-color: #000000;
 	color: #ffffff;
 	font-weight: 600;
 	font-size: 0.875rem;
@@ -330,9 +334,9 @@ a:hover {
 }
 
 .form-control-submit-button:hover {
-	border: 1px solid #0092ff;
+	border: 1px solid #000000;
 	background-color: transparent;
-	color: #0092ff;
+	color: #000000;
 }
 
 
@@ -353,12 +357,12 @@ a:hover {
 }
 
 .navbar .logo-image img {
-    width: 126px;
-	height: 32px;
+    width: 200px;
+	height: 50px;
 }
 
 .navbar .logo-text {
-	color: #223150;
+	color: #000000;
 	font-weight: 700;
 	font-size: 1.875rem;
 	line-height: 1rem;
@@ -403,7 +407,7 @@ a:hover {
 .navbar .nav-item.dropdown.show .nav-link,
 .navbar .nav-item .nav-link:hover,
 .navbar .nav-item .nav-link.active {
-	color: #0092ff;
+	color: #000000;
 }
 
 /* Dropdown Menu */
@@ -440,7 +444,7 @@ a:hover {
 
 .navbar .dropdown-item:hover {
 	background-color: #fcfafb;
-	color: #0092ff;
+	color: #000000;
 }
 
 .navbar .dropdown-divider {
@@ -472,6 +476,8 @@ a:hover {
 
 .header .h1-large {
 	margin-bottom: 1.75rem;
+	font-family: "Kalnia", serif;
+	font-weight: 500;
 }
 
 .header .p-large {
@@ -512,7 +518,7 @@ a:hover {
 
 .cards-1 .card-icon .fas,
 .cards-1 .card-icon .far {
-	color: #0092ff;
+	color: #000000;
 	font-size: 2rem;
 	line-height: 66px;
 }
@@ -548,11 +554,11 @@ a:hover {
 }
 
 .cards-1 .read-more {
-	color: #223150;
+	color: #000000;
 }
 
 .cards-1 .read-more .fas {
-	color: #223150;
+	color: #000000;
 }
 
 
@@ -605,13 +611,15 @@ a:hover {
 /*     Features     */
 /********************/
 .accordion-1 {
-	padding-top: 9.25rem;
-	padding-bottom: 9.75rem;
+	padding-top: 6rem;
+	padding-bottom: 6rem;
 	background: url('../images/features-background.jpg') center center no-repeat;
 	background-size: cover;
 }
 
 .accordion-1 .h2-heading {
+	font-size: 3rem;
+	line-height: 3.5rem;
 	margin-bottom: 1rem;
 	color: #ffffff;
 	text-align: center;
@@ -732,7 +740,7 @@ a:hover {
 
 .cards-2 .testimonial-author {
 	margin-bottom: 0.125rem;
-	color: #223150;
+	color: #000000;
 }
 
 .cards-2 .occupation {
@@ -751,11 +759,11 @@ a:hover {
 }
 
 .cards-2 .card .gradient-floor.red-to-blue {
-	background: linear-gradient(to right, #ef3d91, #0092ff);
+	background: linear-gradient(to right, #ef3d91, #000000);
 }
 
 .cards-2 .card .gradient-floor.blue-to-purple {
-	background: linear-gradient(to right, #0092ff, #637eff);
+	background: linear-gradient(to right, #000000, #637eff);
 }
 
 .cards-2 .card .gradient-floor.purple-to-green {
@@ -878,7 +886,7 @@ a:hover {
 }
 
 .footer a {
-	color: #223150;
+	color: #000000;
 	text-decoration: none;
 }
 
@@ -894,7 +902,7 @@ a:hover {
 }
 
 .footer .fa-stack .fa-stack-1x {
-    color: #0092ff;
+    color: #000000;
 	transition: all 0.2s ease;
 }
 
@@ -908,7 +916,7 @@ a:hover {
 }
 
 .footer .fa-stack:hover .fa-stack-2x {
-    color: #0092ff;
+    color: #000000;
 }
 
 
@@ -993,7 +1001,7 @@ a:hover {
 }
 
 .ex-cards-1 .card .fa-stack-2x {
-	color: #0092ff;
+	color: #000000;
 }
 
 .ex-cards-1 .card .fa-stack-1x {
