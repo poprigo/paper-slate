@@ -22,20 +22,20 @@ function sendEmail(event) {
         message: data?.message,
         reply_to: "ankit.detroja.108@gmail.com",
     }).then(function (response) {
-        alert('SUCCESS!', response.status, response.text);
-
         // Hide the loader and enable the submit button
         submitButton.disabled = false;
         submitButton.querySelector('.button-text').style.display = 'inline';
         loader.style.display = 'none';
+        document.getElementById("contactForm").reset();
 
-
+        alert('Thank You!', 'We will contact you very soon!');
     }, function (error) {
-        alert('FAILED...', error);
-
         // Hide the loader and enable the submit button
         submitButton.disabled = false;
         submitButton.querySelector('.button-text').style.display = 'inline';
         loader.style.display = 'none';
+        document.getElementById("contactForm").reset();
+
+        alert('Failed!', "Something went wrong, Please try again.");
     });
 }
