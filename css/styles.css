@@ -55,6 +55,27 @@ h1 {
 	letter-spacing: -0.4px;
 }
 
+.sub-page-title {
+	font-size: 3.5rem;
+	line-height: 4.25rem;
+	letter-spacing: -0.4px;	
+}
+
+.loader {
+	display: none;
+	border: 3px solid #f3f3f3;
+	border-radius: 50%;
+	border-top: 3px solid orange;
+	width: 20px;
+	height: 20px;
+	animation: spin 1s linear infinite;
+	transform: translate(-50%, -50%);
+}
+@keyframes spin {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
+
 h2 {
 	font-family: "Kalnia", serif;
 	font-weight: 400;
@@ -205,7 +226,7 @@ a:hover {
 
 .btn-solid-sm {
 	display: inline-block;
-	padding: 1rem 1.5rem 1rem 1.5rem;
+	padding: 1.5rem 1.5rem 1.5rem 1.5rem;
 	border: 1px solid #000000;
 	border-radius: 30px;
 	background-color: #000000;
@@ -512,7 +533,7 @@ a:hover {
 	height: 66px;
 	margin-bottom: 1.875rem;
 	border-radius: 8px;
-	background-color: #ddedfb;
+	background-color: #e6e9e6;
 	text-align: center;
 }
 
