@@ -28,7 +28,7 @@ function sendEmail(event) {
         loader.style.display = 'none';
         document.getElementById("contactForm").reset();
 
-        alert('Thank You!', 'We will contact you very soon!');
+        alert('Thank You! - We will contact you very soon.');
     }, function (error) {
         // Hide the loader and enable the submit button
         submitButton.disabled = false;
@@ -36,6 +36,6 @@ function sendEmail(event) {
         loader.style.display = 'none';
         document.getElementById("contactForm").reset();
 
-        alert('Failed!', "Something went wrong, Please try again.");
+        alert('Failed! - Something went wrong, Please try again.');
     });
 }
