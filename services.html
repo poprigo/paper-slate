@@ -51,6 +51,7 @@
     <link href="css/fontawesome-all.min.css" rel="stylesheet">
     <link href="css/swiper.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+    <link href="css/my.css" rel="stylesheet">
 
     <!-- Favicon  -->
     <link rel="icon" href="fav/favicon.ico">
@@ -120,7 +121,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <video class="img-fluid mt-5" autoplay="" muted="" loop="" class="video">
+                    <video class="img-fluid" style="margin-top: 2vw; border-radius: 2rem; border: 0.3rem solid #f2f2f2;" autoplay=""
+                        muted="" loop="" class="video">
                         <source src="images/video.mp4" type="video/mp4">
                     </video>
                 </div>
@@ -129,115 +131,196 @@
     </div>
     <!-- end of basic -->
 
-    <!-- Services -->
-    <div id="services" class="cards-1">
+    <!-- Our Services -->
+    <div id="details" class="who-container" style="margin-top: 3vw;">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <h1 style="text-align: center;" class="h1-large sub-page-title">Services We Provide</h1>
-                    <p class="mt-2 mb-5" style="text-align: center; font-size: 1.3rem;">
-                        Tailored designs for personal or corporate use, making every notebook unique.
+                <div class="col-lg-6" >
+                    <h1 class="h1-large">Our Services</h1>
+                    <div style="align-items: flex-end; display: flex; flex-direction: column; width: 100%;">
+                        <div class="round hide-item mt-5 text-end-right-margin"></div>
+                    </div>
+                    <p class="who-description-text text-end-right-margin">
+                        At Paper Slate, we specialize in crafting high-quality, eco-friendly notebooks that blend
+                        creativity and sustainability. Our expertise spans custom design, innovative binding, and
+                        personalized printing to meet your unique needs.
                     </p>
                 </div>
+                <div class="col-lg-6 mobile-gap">
+                    <div class="accordion-1">
+                        <div class="accordion" id="accordionExample">
+
+                            <div class="accordion-item">
+                                <div class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Custom Notebook Design
+                                    </button>
+                                </div>
+                                <div id="collapseOne" class="accordion-collapse collapse show"
+                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">Create notebooks that reflect your vision. Tailored
+                                        designs
+                                        for personal or corporate use, making every notebook unique.</div>
+                                </div>
+                            </div>
+
+                            <div class="border"></div>
+
+                            <div class="accordion-item">
+                                <div class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Bulk Order Solutions
+                                    </button>
+                                </div>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">We provide efficient bulk ordering for schools, offices,
+                                        and
+                                        retailers. Competitive pricing and quick delivery guaranteed.</div>
+                                </div>
+                            </div>
+
+                            <div class="border"></div>
+
+                            <div class="accordion-item">
+                                <div class="accordion-header" id="headingThree">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree" aria-expanded="false"
+                                        aria-controls="collapseThree">
+                                        Personalized Printing
+                                    </button>
+                                </div>
+                                <div id="collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">Enhance notebooks with personalized printing. Add logos,
+                                        names, or unique designs for a customized touch.</div>
+                                </div>
+                            </div>
+
+                            <div class="border"></div>
+
+                            <div class="accordion-item">
+                                <div class="accordion-header" id="headingFour">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFour" aria-expanded="false"
+                                        aria-controls="collapseFour">
+                                        Specialty Paper Notebooks
+                                    </button>
+                                </div>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">Choose from a variety of specialty papers including
+                                        recycled, acid-free, and premium options for different writing preferences.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="border"></div>
+
+                            <div class="accordion-item">
+                                <div class="accordion-header" id="headingFive">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseFive" aria-expanded="false"
+                                        aria-controls="collapseFive">
+                                        Eco-Friendly Notebooks
+                                    </button>
+                                </div>
+                                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">Our eco-friendly notebooks are made from responsibly
+                                        sourced materials. Combining sustainability with quality for eco-conscious
+                                        users.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="border"></div>
+
+                            <div class="accordion-item">
+                                <div class="accordion-header" id="headingSix">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseSix" aria-expanded="false"
+                                        aria-controls="collapseSix">
+                                        Innovative Binding Options
+                                    </button>
+                                </div>
+                                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                                    data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">Select from innovative binding choices, including spiral
+                                        and stitched bindings. Ensuring durability and user-friendliness.
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="row mt-5">
+        </div>
+    </div>
+    <!-- end of Our Services -->
+
+     <!-- Testimonials -->
+     <div class="cards-2 pt-5">
+        <div class="container">
+            <div class="row">
                 <div class="col-lg-12">
-                    <div class="card mb-5">
-                        <!-- <div class="card-icon">
-                            <i class="fas fi fi-rr-customize-edit"></i>
-                        </div> -->
+                    <h2 class="h2-heading">Customer testimonials</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+
+                    <div class="card">
+                        <img class="quotes" src="images/quotes.svg" alt="alternative">
                         <div class="card-body">
-                            <h5 class="card-title">Custom Notebook Design</h5>
-                            <p>Create notebooks that reflect your vision. Tailored designs for personal or corporate
-                                use, making every notebook unique.</p>
+                            <p class="testimonial-text">As a writer, I appreciate the premium paper and sturdy binding.
+                                These notebooks are perfect for my daily writing needs, providing a reliable companion
+                                for my work.</p>
+                            <div class="testimonial-author">Puja Gupta</div>
+                            <div class="occupation">Blog Writer</div>
                         </div>
+                        <div class="gradient-floor red-to-blue"></div>
                     </div>
 
-                    <div class="card mb-5">
-                        <!-- <div class="card-icon">
-                            <i class="fas fi-rr-print"></i>
-                        </div> -->
+                    <div class="card">
+                        <img class="quotes" src="images/quotes1.svg" alt="alternative">
                         <div class="card-body">
-                            <h5 class="card-title">Personalized Printing</h5>
-                            <p>Enhance notebooks with personalized printing. Add logos, names, or unique designs for a
-                                customized touch.</p>
+                            <p class="testimonial-text">Personalized printing made my gift unique and special. The
+                                quality of the print and the notebook itself were exceptional. Highly recommended for
+                                anyone seeking a personal touch.</p>
+                            <div class="testimonial-author">Ankit Detroja</div>
+                            <div class="occupation">CEO, Poprigo</div>
                         </div>
+                        <div class="gradient-floor blue-to-purple"></div>
                     </div>
 
-                    <div class="card mb-5">
-                        <!-- <div class="card-icon">
-                            <i class="fas fi-rr-tree-deciduous"></i>
-                        </div> -->
+                    <div class="card">
+                        <img class="quotes" src="images/quotes2.svg" alt="alternative">
                         <div class="card-body">
-                            <h5 class="card-title">Eco-Friendly Notebooks</h5>
-                            <p>Our eco-friendly notebooks are made from responsibly sourced materials. Combining
-                                sustainability with quality for eco-conscious users.</p>
+                            <p class="testimonial-text">I've never been so impressed with a notebook. The quality and
+                                craftsmanship are superb, making it my go-to for all my important notes and ideas.</p>
+                            <div class="testimonial-author">Rakesh Pandit</div>
+                            <div class="occupation">Manager, Smart Album</div>
                         </div>
-                    </div>
-
-                    <div class="card mb-5">
-                        <!-- <div class="card-icon">
-                            <i class="fas fi fi-rr-box-open"></i>
-                        </div> -->
-                        <div class="card-body">
-                            <h5 class="card-title">Bulk Order Solutions</h5>
-                            <p>We provide efficient bulk ordering for schools, offices, and retailers. Competitive
-                                pricing and quick delivery guaranteed.</p>
-                        </div>
-                    </div>
-
-                    <div class="card mb-5">
-                        <!-- <div class="card-icon">
-                            <i class="fas fi fi-rr-toilet-paper-blank-under"></i>
-                        </div> -->
-                        <div class="card-body">
-                            <h5 class="card-title">Specialty Paper Notebooks</h5>
-                            <p>Choose from a variety of specialty papers including recycled, acid-free, and premium
-                                options for different writing preferences.</p>
-                        </div>
-                    </div>
-
-                    <div class="card mb-5">
-                        <!-- <div class="card-icon">
-                            <i class="fas fi fi-rr-book-open-cover"></i>
-                        </div> -->
-                        <div class="card-body">
-                            <h5 class="card-title">Innovative Binding Options</h5>
-                            <p>Select from innovative binding choices, including spiral and stitched bindings. Ensuring
-                                durability and user-friendliness.</p>
-                        </div>
+                        <div class="gradient-floor purple-to-green"></div>
                     </div>
 
                 </div>
             </div>
         </div>
     </div>
-    <!-- end of services -->
+    <!-- end of testimonials -->
 
-    <!-- Invitation -->
-    <div class="basic-3 mb-5">
+
+     <!-- Footer -->
+     <div class="footer" style="overflow: hidden;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="text-container">
-                        <h2>Creativity with Our Premium Notebooks</h2>
-                        <!-- <p class="p-large">Eu convallis arcu ultrices in. Mauris ornare libero et pharetra hendrerit. Curabitur elementum lectus quis vioc tellus</p> -->
-                        <p class="p-large">Our premium notebooks, made from recycled materials, are designed to inspire
-                            your creativity while caring for the environment.</p>
-                        <a class="btn-solid-lg" href="./contact">Get free quote</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    <!-- Footer -->
-    <div class="footer bg-gray">
-        <img class="decoration-circles" src="images/decoration-circles.png" alt="alternative">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
+                    <!-- <img class="logo-image-footer" src="images/white-logo.png" alt="alternative"> -->
                     <h4>Your trusted source for premium, sustainable notebooks. We blend quality and craftsmanship to
                         bring you stationery that inspires creativity and stands the test of time.</h4>
                     <div class="social-container">
@@ -267,18 +350,19 @@
     <!--End of Footer -->
 
     <!-- Copyright -->
-    <div class="copyright bg-gray">
+    <div class="copyright">
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-sm-12">
                     <ul class="list-unstyled li-space-lg p-small">
-                        <li><a href="terms">Terms & Conditions</a></li>
-                        <li><a href="privacy">Privacy Policy</a></li>
+                        <li><a style="color: #ffffff;" class="copywrite-text" href="terms">Terms & Conditions</a></li>
+                        <li><a style="color: #ffffff;" class="copywrite-text" href="privacy">Privacy Policy</a></li>
                     </ul>
                 </div>
 
                 <div class="col-lg-6 col-md-12 col-sm-12">
-                    <p class="p-small statement">Copyright © <a href="#">Paper Slate</a></p>
+                    <p style="color: #ffffff;" class="p-small statement copywrite-text">Copyright © <a href="#"
+                            style="color: #ffffff;">Paper Slate</a></p>
                 </div>
             </div>
         </div>
